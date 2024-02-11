@@ -18,6 +18,7 @@ more advanced cp algorithms
 - [Advanced DP](#advanced-dynamic-programming-techniques)
 - [Misc](#miscellaneous)
 - [Quantum algorithms](#quantum-algorithms-and-complexity-theory-more-theoretical-and-less-practical-in-standard-competitions-but-still-interesting)
+- [Random](#randomized-algorithms)
 
 ## String Processing and Matching Algorithms:
 - Knuth-Morris-Pratt (KMP) Algorithm: For string matching without backtracking.
