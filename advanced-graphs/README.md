@@ -1,0 +1,12 @@
+## LeetCode Advanced Graph Problems
+- [Cheapest Flights Within K Stops:](https://leetcode.com/problems/cheapest-flights-within-k-stops/) Find the cheapest flight route from a source to a destination with up to K stops in between, involving dynamic programming or modified Dijkstra's algorithm for constrained shortest path problems.
+- [Critical Connections in a Network:](https://leetcode.com/problems/critical-connections-in-a-network/) Identify edges in a network that, if removed, would make some parts of the network unreachable from others. Utilizes Tarjan's algorithm or DFS for finding bridges in a graph.
+- [Minimum Number of Days to Make m Bouquets:](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) A problem that, while not graph theory in the traditional sense, can be approached with binary search over the solution space and checking feasibility using a flow or connectivity-based method.
+- [Swim in Rising Water:](https://leetcode.com/problems/swim-in-rising-water/) On a 2D grid where each cell has a height, find the minimum time to swim from the top left to the bottom right corner, where time is determined by the maximum height visited along the path. This problem can be approached with Union-Find or modified Dijkstra's algorithm.
+
+## Codeforces Advanced Graph Problems
+- [New Year Transportation:](https://codeforces.com/problemset/problem/500/A) A simple yet insightful problem on graph connectivity and traversal, checking if it's possible to travel from one node to another following specific rules.
+- [DZY Loves Fibonacci Numbers:](https://codeforces.com/problemset/problem/446/C) Involves trees and sequences with operations and updates, testing segment trees or Fenwick trees in conjunction with lazy propagation for range updates and queries on a graph.
+- [Greg and Graph:](https://codeforces.com/problemset/problem/295/B) Remove nodes from a graph in a specific order and calculate the sum of shortest paths after each removal, an advanced application of Floyd-Warshall’s algorithm or dynamic programming on graphs.
+- [Hongcow Builds A Nation:](https://codeforces.com/problemset/problem/744/A) Solve a problem about graph connectivity, component size, and edge addition strategy, involving DFS/BFS for component identification and analysis.
+- [Journey:](https://codeforces.com/problemset/problem/721/C) Find the longest path under a time constraint in a directed graph, a variant of the shortest path problem that typically requires dynamic programming or modified DFS for solution.
