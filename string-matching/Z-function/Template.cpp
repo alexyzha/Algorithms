@@ -38,3 +38,42 @@ class Template {
     }
 
 };
+
+/*
+    EXPLANATION:
+––––––––––––––––––––––––––––––––
+    Example:
+    aabx gfda aabx
+    0100 0001 4100
+                ^
+    the second aabx perfectly matches the first 4 letters of the string
+    Therefore, z[8] = 4
+
+    Now, L = 8 and R = 12.
+
+    When we go to calculate z[9], we see that it's within the current window [L,R)
+
+    Therefore, z[9] can be estimated to start as: min(r-i, z[i-l]). z[i-1] indicates the z-value  of the
+    **matching letter in the prefix** which means:
+    **the length prefix matching with the suffix starting from i-l**
+
+    r-i is the right bound, and since these are all the letters we have explored so far, we should not increase past R.
+
+    Therefore, if i is within the searched-already bound:
+    preliminary z[i] = min(r-i, Z[i-l]);
+
+    Then, we can continue to check after index (i + z[i])
+    - when n = string.size()
+    while(i+z[i] < n && s[z[i]] == s[z[i]+i]) z[i]++;
+
+    - z[i] is the length of the longest matching suffix starting from index i
+    - z[i] + i is the index of either the new R (farthest reach) or a non-match within R
+    - z[i] will therefore equal the corresponding letter in the prefix
+
+    Then, we push the bounds of R
+    if(i + z[i] > R) {
+        R = i + z[i];
+        L = i;
+    }
+
+*/
