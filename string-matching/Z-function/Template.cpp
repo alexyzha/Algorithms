@@ -77,3 +77,28 @@ class Template {
     }
 
 */
+
+//comparing
+
+vector<int> Z_FXN(string s, string c) {
+    //decl
+    s = c + "$" + s;
+    int n = s.size(), L = 0, R = 0;
+    vector<int> Z(n,0);
+    //fxn
+    for(int i = 1; i < n; i++) {
+        if(i < R) Z[i] = min(R-i, Z[i-L]);
+        while(i + Z[i] < n && s[Z[i]] == s[Z[i] + i]) Z[i]++;
+        if(i + Z[i] > R) {
+            R = i + Z[i];
+            L = i;
+        }
+    }
+
+    //example, to count number of occurrences:
+    int ct = 0;
+    for(const int& i : Z) { if(i == c.size()) ct++; }
+    //endex
+
+    return Z;
+}
