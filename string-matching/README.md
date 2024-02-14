@@ -1,17 +1,17 @@
 ## LeetCode Problems on String Processing and Matching
-- ["Implement strStr()"](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) - A direct application of string matching algorithms.
-- ["Longest Substring Without Repeating Characters"](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) - Involves processing strings to find unique substrings.
+- ~~["Implement strStr()"](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) - A direct application of string matching algorithms.~~ Solved again with KMP
+- ~~["Longest Substring Without Repeating Characters"](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) - Involves processing strings to find unique substrings.~~ Solved with rolling hashtable/set
 - ["Longest Palindromic Substring"](https://leetcode.com/problems/longest-palindromic-substring/description/) - Can be solved efficiently with Manacher’s algorithm.
-- ["Longest Repeating Character Replacement"](https://leetcode.com/problems/longest-repeating-character-replacement/) - Involves string manipulation and sliding window techniques.
+- ~~["Longest Repeating Character Replacement"](https://leetcode.com/problems/longest-repeating-character-replacement/) - Involves string manipulation and sliding window techniques.~~ Solved with sliding window
 - ["Minimum Window Substring"](https://leetcode.com/problems/minimum-window-substring) - A problem that combines string processing with a sliding window.
-- ["Group Anagrams"](https://leetcode.com/problems/group-anagrams/) - Involves sorting and hashing of string characters.
-- ["Valid Anagram"](https://leetcode.com/problems/valid-anagram/) - Simple string comparison and character counting.
+- ~~["Group Anagrams"](https://leetcode.com/problems/group-anagrams/) - Involves sorting and hashing of string characters.~~ Solved using hashmap and string sorting
+- ~~["Valid Anagram"](https://leetcode.com/problems/valid-anagram/) - Simple string comparison and character counting.~~ Solved using single map (vector), who needs hashmap anyways?
 - ["Palindrome Pairs"](https://leetcode.com/problems/palindrome-pairs/) - Can be approached with hashing or trie data structures.
 - ["Word Ladder II"](https://leetcode.com/problems/word-ladder-ii/) - A more complex problem involving string transformations and BFS.
 - ["Wildcard Matching"](https://leetcode.com/problems/wildcard-matching/) - Involves dynamic programming and string matching with wildcards.
 - ["Regular Expression Matching"](https://leetcode.com/problems/regular-expression-matching/) - A challenging problem that can be solved with dynamic programming or backtracking.
 - ["Find All Anagrams in a String"](https://leetcode.com/problems/find-all-anagrams-in-a-string/) - Involves sliding window and character frequency counting.
-- ["Repeated DNA Sequences"](https://leetcode.com/problems/repeated-dna-sequences/description/) - String processing with hashing or bit manipulation.
+- ~~["Repeated DNA Sequences"](https://leetcode.com/problems/repeated-dna-sequences/description/) - String processing with hashing or bit manipulation.~~ Solved with fixed-length sliding window + string compare
 - ["ZigZag Conversion"](https://leetcode.com/problems/zigzag-conversion/) - Involves rearranging characters in a string in a specific pattern.
 
 ## Codeforces Problems on String Processing and Matching
