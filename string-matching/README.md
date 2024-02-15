@@ -16,15 +16,15 @@
 
 ## Codeforces Problems on String Processing and Matching
 - ~~["Password"](https://codeforces.com/problemset/problem/126/B) - Classic problem that can be solved using KMP algorithm. (Codeforces Round #126 (Div. 2))~~ Solved with map and queue and Z-function...
-- ["Petya and Strings"](https://codeforces.com/problemset/problem/112/A) - Simple string comparison problem. (Codeforces Beta Round #89 (Div. 2 Only))
-- ["String Task"](https://codeforces.com/problemset/problem/118/A) - Involves string manipulation and processing. (Codeforces Beta Round #89 (Div. 2 Only))
-- ["Borze"](https://codeforces.com/problemset/problem/32/B) - A problem that requires decoding a string into another format. (Codeforces Beta Round #32 (Div. 2))
-- ["Chat room"](https://codeforces.com/problemset/problem/58/A) - Involves searching for a sequence within a string, can use string matching algorithms. (Codeforces Beta Round #54 (Div. 2))
-- ["Lucky Division"](https://codeforces.com/problemset/problem/122/A) - Involves processing numerical strings to find patterns. (Codeforces Beta Round #91 (Div. 2 Only))
+- ~~["Petya and Strings"](https://codeforces.com/problemset/problem/112/A) - Simple string comparison problem. (Codeforces Beta Round #89 (Div. 2 Only))~~ For loop, easy
+- ~~["String Task"](https://codeforces.com/problemset/problem/118/A) - Involves string manipulation and processing. (Codeforces Beta Round #89 (Div. 2 Only))~~ Simple for loop
+- ~~["Borze"](https://codeforces.com/problemset/problem/32/B) - A problem that requires decoding a string into another format. (Codeforces Beta Round #32 (Div. 2))~~ Easy while loop
+- ~~["Chat room"](https://codeforces.com/problemset/problem/58/A) - Involves searching for a sequence within a string, can use string matching algorithms. (Codeforces Beta Round #54 (Div. 2))~~ Easy 2 ptr
+- ~~["Lucky Division"](https://codeforces.com/problemset/problem/122/A) - Involves processing numerical strings to find patterns. (Codeforces Beta Round #91 (Div. 2 Only))~~ Free, for loop
 - "Trains" - More complex string manipulation and matching problem. (Educational Codeforces Round 2)
 - "Prefixes and Suffixes" - A problem that can utilize Z-function or KMP for efficient solution. (Codeforces Round #597 (Div. 2))
 - "Substring Game in the Lesson" - Involves games with substrings, potentially leveraging advanced string algorithms. (Codeforces Round #594 (Div. 1))
-- ["DZY Loves Strings"](https://codeforces.com/problemset/problem/447/B) - String manipulation with considerations for value optimization. (Codeforces Round #146 (Div. 2))
-- ["Good Substrings"](https://codeforces.com/problemset/problem/271/D) - Involves finding substrings that meet specific criteria, can use hashing or trie. (Codeforces Round #271 (Div. 2))
+- ~~["DZY Loves Strings"](https://codeforces.com/problemset/problem/447/B) - String manipulation with considerations for value optimization. (Codeforces Round #146 (Div. 2))~~ Easy with greedy
+- ~~["Good Substrings"](https://codeforces.com/problemset/problem/271/D) - Involves finding substrings that meet specific criteria, can use hashing or trie. (Codeforces Round #271 (Div. 2))~~ got violated trying to implement hashing, needs double hashing to be sure
 - "DNA Alignment" - String alignment and processing to find optimal configurations. (VK Cup 2012 Qualification Round 1)
 - "Two Strings Swaps" - Advanced problem involving string swaps and matching. (Codeforces Round #634 (Div. 3))
