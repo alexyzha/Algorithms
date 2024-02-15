@@ -7,6 +7,9 @@
 
     **Double hashing**
     **Smarter hashing**
+    - 31   base
+    - 131  base
+    - 5381 str
 */
 
 
