@@ -15,7 +15,7 @@
 - ["ZigZag Conversion"](https://leetcode.com/problems/zigzag-conversion/) - Involves rearranging characters in a string in a specific pattern.
 
 ## Codeforces Problems on String Processing and Matching
-- ["Password"](https://codeforces.com/problemset/problem/126/B) - Classic problem that can be solved using KMP algorithm. (Codeforces Round #126 (Div. 2))
+- ~~["Password"](https://codeforces.com/problemset/problem/126/B) - Classic problem that can be solved using KMP algorithm. (Codeforces Round #126 (Div. 2))~~ Solved with map and queue and Z-function...
 - ["Petya and Strings"](https://codeforces.com/problemset/problem/112/A) - Simple string comparison problem. (Codeforces Beta Round #89 (Div. 2 Only))
 - ["String Task"](https://codeforces.com/problemset/problem/118/A) - Involves string manipulation and processing. (Codeforces Beta Round #89 (Div. 2 Only))
 - ["Borze"](https://codeforces.com/problemset/problem/32/B) - A problem that requires decoding a string into another format. (Codeforces Beta Round #32 (Div. 2))
