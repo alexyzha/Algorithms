@@ -6,7 +6,7 @@
 - ~~["Minimum Window Substring"](https://leetcode.com/problems/minimum-window-substring) - A problem that combines string processing with a sliding window.~~ solved with map (array) and bitmasking
 - ~~["Group Anagrams"](https://leetcode.com/problems/group-anagrams/) - Involves sorting and hashing of string characters.~~ Solved using hashmap and string sorting
 - ~~["Valid Anagram"](https://leetcode.com/problems/valid-anagram/) - Simple string comparison and character counting.~~ Solved using single map (vector), who needs hashmap anyways?
-- ~~["Palindrome Pairs"](https://leetcode.com/problems/palindrome-pairs/) - Can be approached with hashing or trie data structures.~~~ ....beaten with rolling hash + reverse hash + map
+- ~~["Palindrome Pairs"](https://leetcode.com/problems/palindrome-pairs/) - Can be approached with hashing or trie data structures.~~~ ....beaten with rolling hash + reverse hash + map. Also learned the pallindrome prefix/suffix property (think: xyzll zyx, zyx llxyz)
 - ["Word Ladder II"](https://leetcode.com/problems/word-ladder-ii/) - A more complex problem involving string transformations and BFS.
 - ["Wildcard Matching"](https://leetcode.com/problems/wildcard-matching/) - Involves dynamic programming and string matching with wildcards.
 - ["Regular Expression Matching"](https://leetcode.com/problems/regular-expression-matching/) - A challenging problem that can be solved with dynamic programming or backtracking.
