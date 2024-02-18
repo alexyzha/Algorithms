@@ -1,7 +1,7 @@
 ## LeetCode Problems on String Processing and Matching
 - ~~["Implement strStr()"](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) - A direct application of string matching algorithms.~~ Solved again with KMP
 - ~~["Longest Substring Without Repeating Characters"](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) - Involves processing strings to find unique substrings.~~ Solved with rolling hashtable/set
-- ["Longest Palindromic Substring"](https://leetcode.com/problems/longest-palindromic-substring/description/) - Can be solved efficiently with Manacher’s algorithm.
+- ~~["Longest Palindromic Substring"](https://leetcode.com/problems/longest-palindromic-substring/description/) - Can be solved efficiently with Manacher’s algorithm.~~ solved with manacher's algorithm...
 - ~~["Longest Repeating Character Replacement"](https://leetcode.com/problems/longest-repeating-character-replacement/) - Involves string manipulation and sliding window techniques.~~ Solved with sliding window
 - ~~["Minimum Window Substring"](https://leetcode.com/problems/minimum-window-substring) - A problem that combines string processing with a sliding window.~~ solved with map (array) and bitmasking
 - ~~["Group Anagrams"](https://leetcode.com/problems/group-anagrams/) - Involves sorting and hashing of string characters.~~ Solved using hashmap and string sorting
