@@ -10,7 +10,7 @@
 - ["Word Ladder II"](https://leetcode.com/problems/word-ladder-ii/) - A more complex problem involving string transformations and BFS.
 - ["Wildcard Matching"](https://leetcode.com/problems/wildcard-matching/) - Involves dynamic programming and string matching with wildcards.
 - ["Regular Expression Matching"](https://leetcode.com/problems/regular-expression-matching/) - A challenging problem that can be solved with dynamic programming or backtracking.
-- ["Find All Anagrams in a String"](https://leetcode.com/problems/find-all-anagrams-in-a-string/) - Involves sliding window and character frequency counting.
+- ~~["Find All Anagrams in a String"](https://leetcode.com/problems/find-all-anagrams-in-a-string/) - Involves sliding window and character frequency counting.~~ solved with bitmask and array map
 - ~~["Repeated DNA Sequences"](https://leetcode.com/problems/repeated-dna-sequences/description/) - String processing with hashing or bit manipulation.~~ Solved with fixed-length sliding window + string compare
 - ["ZigZag Conversion"](https://leetcode.com/problems/zigzag-conversion/) - Involves rearranging characters in a string in a specific pattern.
 
