@@ -8,8 +8,8 @@
 - ~~["Valid Anagram"](https://leetcode.com/problems/valid-anagram/) - Simple string comparison and character counting.~~ Solved using single map (vector), who needs hashmap anyways?
 - ~~["Palindrome Pairs"](https://leetcode.com/problems/palindrome-pairs/) - Can be approached with hashing or trie data structures.~~ ....beaten with rolling hash + reverse hash + map. Also learned the pallindrome prefix/suffix property (think: xyzll zyx, zyx llxyz)
 - ["Word Ladder II"](https://leetcode.com/problems/word-ladder-ii/) - A more complex problem involving string transformations and BFS.
-- ["Wildcard Matching"](https://leetcode.com/problems/wildcard-matching/) - Involves dynamic programming and string matching with wildcards.
-- ["Regular Expression Matching"](https://leetcode.com/problems/regular-expression-matching/) - A challenging problem that can be solved with dynamic programming or backtracking.
+- ~~["Wildcard Matching"](https://leetcode.com/problems/wildcard-matching/) - Involves dynamic programming and string matching with wildcards.~~ i hate these questions so much, but ez solve with DP + recursion
+- ~~["Regular Expression Matching"](https://leetcode.com/problems/regular-expression-matching/) - A challenging problem that can be solved with dynamic programming or backtracking.~~ i hate you i hate you i hate you i hate you (it wasn't really that bad 💀), solved with recursion
 - ~~["Find All Anagrams in a String"](https://leetcode.com/problems/find-all-anagrams-in-a-string/) - Involves sliding window and character frequency counting.~~ solved with bitmask and array map
 - ~~["Repeated DNA Sequences"](https://leetcode.com/problems/repeated-dna-sequences/description/) - String processing with hashing or bit manipulation.~~ Solved with fixed-length sliding window + string compare
 - ~~["ZigZag Conversion"](https://leetcode.com/problems/zigzag-conversion/) - Involves rearranging characters in a string in a specific pattern.~~ string vector, push back in zigzagging pattern, change direction using bool + ternary operator
