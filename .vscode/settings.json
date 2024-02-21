@@ -4,6 +4,7 @@
         "iosfwd": "cpp",
         "__config": "cpp",
         "ostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "queue": "cpp"
     }
 }
