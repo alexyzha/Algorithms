@@ -5,6 +5,11 @@
         "__config": "cpp",
         "ostream": "cpp",
         "string": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "ios": "cpp",
+        "deque": "cpp",
+        "list": "cpp"
     }
 }
