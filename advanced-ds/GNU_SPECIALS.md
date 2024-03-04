@@ -16,4 +16,4 @@ typedef tree<int,null_type,less_equal<int>,rb_tree_tag,tree_order_statistics_nod
 
 - order_of_key(x) <––– how many elements are STRICTLY SMALLER than x, (includes duplicates)
 
-- *find_by_order(x) <––– returns the index of x
+- *find_by_order(x) <––– returns x^th element
